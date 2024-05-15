@@ -1,129 +1,129 @@
-// // document.write("Hello")
+/* document.write("Hello")
 
-// // window.prompt("please enter ur name")
+window.prompt("please enter ur name")
 
-// // a = "Apple"
+a = "Apple"
 
-// // console.log(a + "is red")
+console.log(a + "is red")
 
-// // --------------------------------------
-
-
-
-
-
-
-// //Variables-------------
-
-// // var chandu = "Learning"
-
-// // console.log(chandu)
-
-// // var chandu= "Practicing"
-// // console.log(chandu)
-
-// // ---------------------
+--------------------------------------
+ */
 
 
 
 
 
+/* Variables-------------
 
-// // let chandu = "Learning"
+var chandu = "Learning"
 
-// // console.log(chandu)
+console.log(chandu)
 
-// //  chandu = "Practicing"
-// // console.log(chandu)
+var chandu= "Practicing"
+console.log(chandu)
 
-// //---------------
-
-
-
-
-
-// // const chandu = 'learning'
-// //  console.log(chandu)
-
-// //  chandu='practicing'
-// //  console.log(chandu)
+---------------------
 
 
 
 
 
 
+let chandu = "Learning"
+
+console.log(chandu)
+
+ chandu = "Practicing"
+console.log(chandu)
+
+---------------
+
+
+
+
+
+const chandu = 'learning'
+ console.log(chandu)
+
+ chandu='practicing'
+ console.log(chandu)
+
+
+
+
+
+ */
 
 
 
 
 
 
-// //-------------------------------------------Data types-------------------------------------------
+/* -------------------------------------------Data types-------------------------------------------
 
-// //1.premitive -->String, Number, boolean, 
+1.premitive -->String, Number, boolean, 
 
-// // var chandu = "Hello" //String, double or single quote lo rasthamu....
+var chandu = "Hello" //String, double or single quote lo rasthamu....
 
-// // console.log(chandu)
-// // document.write(chandu +"<br>")
-
-
-// // var chandu = 12345678910 // float, double annitini numbers eh antamu 
-// // console.log(chandu)
-// // console.log(typeof chandu); //aa variable ea data type oh thelusukovadaniki typeof ni use chesthamu
-// // document.write(chandu+"<br>")
+console.log(chandu)
+document.write(chandu +"<br>")
 
 
-// // var chandu= 10>20   //boolean, conditions ni check cheyyadaniki
-// // console.log(chandu)
-// // document.write(chandu+"<br>")
+var chandu = 12345678910 // float, double annitini numbers eh antamu 
+console.log(chandu)
+console.log(typeof chandu); //aa variable ea data type oh thelusukovadaniki typeof ni use chesthamu
+document.write(chandu+"<br>")
 
 
-// //2.Special --> Undefined, Null
-
-// // var chandu  // undefined, manam variable declare chesi dhaniki manam ea value define cheyyakapothe dhanini undefined antamu...
-// // console.log(chandu)
-
-
-// // var chandu = null  //null, means dhanilo em value ledhu ani cheppadaniki....
-// // console.log(chandu)
+var chandu= 10>20   //boolean, conditions ni check cheyyadaniki
+console.log(chandu)
+document.write(chandu+"<br>")
 
 
+2.Special --> Undefined, Null
 
-// //3.Composite --> Arrays, Objects
+var chandu  // undefined, manam variable declare chesi dhaniki manam ea value define cheyyakapothe dhanini undefined antamu...
+console.log(chandu)
 
-// //-------------------------------------------Arrays-------------------------------------------
 
-// // let fruits = ["apple", "mango",55,{chandu:"learning"}]  //using square brackets
-// // console.log(fruits)
+var chandu = null  //null, means dhanilo em value ledhu ani cheppadaniki....
+console.log(chandu)
 
-// //-------------------------------------------Objects-------------------------------------------
-// //curley brackets tho open and close and store key value pairs...
-// // let games = {                       
-// //    cricket : "kohli",
-// //    football: "Messi",
-// //    Tennis : "Fedaral"
-// // }
-// // console.log(games)
-// // console.log(typeof fruits)
 
+
+3.Composite --> Arrays, Objects
+
+-------------------------------------------Arrays-------------------------------------------
+
+let fruits = ["apple", "mango",55,{chandu:"learning"}]  //using square brackets
+console.log(fruits)
+
+-------------------------------------------Objects-------------------------------------------
+curley brackets tho open and close and store key value pairs...
+let games = {                       
+   cricket : "kohli",
+   football: "Messi",
+   Tennis : "Fedaral"
+}
+console.log(games)
+console.log(typeof fruits)
+ */
 
 
 // //-------------------------------------------Operators-------------------------------------------
 
-// // 1.Arithmetic Operator +,-,*,/,%,-(), ++(increment), --(decrement)
-// let num1 = 7;
-// let num2 = 4;
-// console.log(num1+num2);
-// console.log(num1-num2);
-// console.log(num1*num2);
-// console.log(num1/num2);
-// console.log(num1%num2);
-// console.log(num1++);   //post increment -->  after executing the statement it will return old value of num1
-// console.log(num1--);     //post decrement -->   after executing the statement it will return old value of num1
-// console.log(++num1);      //pre increment -->  mundhe value ni increment chesi print chesthadhi
-// console.log(--num1);       // pre decrement -->  mundhe value ni decrement chesi print chesthadhi
+/* // 1.Arithmetic Operator +,-,*,/,%,-(), ++(increment), --(decrement)
+let num1 = 7;
+let num2 = 4;
+console.log(num1+num2);
+console.log(num1-num2);
+console.log(num1*num2);
+console.log(num1/num2);
+console.log(num1%num2);
+console.log(num1++);   //post increment -->  after executing the statement it will return old value of num1
+console.log(num1--);     //post decrement -->   after executing the statement it will return old value of num1
+console.log(++num1);      //pre increment -->  mundhe value ni increment chesi print chesthadhi
+console.log(--num1);       // pre decrement -->  mundhe value ni decrement chesi print chesthadhi
 
 
 
@@ -131,74 +131,74 @@
 
 
 
-// // 2.Assignment operators   +=, -=, *=, /=, %=, <<=, >>=, >>>=, &=, ^=, |=, **=
-// let x = 7 ;
-// x+=6       //x = x + 6
-// console.log(x)
-// x-=3     //x = x - 3
-// console.log(x)
-// x*=8     //x = x * 8
-// console.log(x)
-// x/=2     //x = x / 2
-// console.log(x)
+// 2.Assignment operators   +=, -=, *=, /=, %=, <<=, >>=, >>>=, &=, ^=, |=, **=
+let x = 7 ;
+x+=6       //x = x + 6
+console.log(x)
+x-=3     //x = x - 3
+console.log(x)
+x*=8     //x = x * 8
+console.log(x)
+x/=2     //x = x / 2
+console.log(x)
 
 
-//3.Bitwise operator // & - bitwise AND,  | - bitwise OR,  ~ - bitwise NOT,   ^ - bitwise XOR,    << - left shift ,  >> - right, >>> - zero fill right shift
+3.Bitwise operator // & - bitwise AND,  | - bitwise OR,  ~ - bitwise NOT,   ^ - bitwise XOR,    << - left shift ,  >> - right, >>> - zero fill right shift
 
 
-// let a = 9;        //9 is 1011 in binary
-// let b = 5;         //5 is 0101 in binary
+let a = 9;        //9 is 1011 in binary
+let b = 5;         //5 is 0101 in binary
 
-// console.log(a & b);    // bit by bit and operation
-//                          // 0 1  1 1 1 0 0 1 1
-//                          // 0 1    1 0 1 0 0 1 1
-//                           //===============
-//                           // 0 1    1 1 1 0 0 1 1
-//                            //             ========
-//                            //             1 1  1 0 0 1 1
-//                               //---------------------
-//                                //              1 1  1 0 0 1
+console.log(a & b);    // bit by bit and operation
+                         // 0 1  1 1 1 0 0 1 1
+                         // 0 1    1 0 1 0 0 1 1
+                          //===============
+                          // 0 1    1 1 1 0 0 1 1
+                           //             ========
+                           //             1 1  1 0 0 1 1
+                              //---------------------
+                               //              1 1  1 0 0 1
 
-// console.log(a | b);    //bit by bit or operation
-//                          // 0 1    1 1 1 0 0 1 1
-//                          // 0 1    0 1 1 1 0 1 0
-//                           //=====================
-//                           // 0 1        1 1 1 1 1 
+console.log(a | b);    //bit by bit or operation
+                         // 0 1    1 1 1 0 0 1 1
+                         // 0 1    0 1 1 1 0 1 0
+                          //=====================
+                          // 0 1        1 1 1 1 1 
 
-// console.log(~a);      // one's complement of a i.e., flipping all the bits of a number
-//                          // 1011        -----1010
+console.log(~a);      // one's complement of a i.e., flipping all the bits of a number
+                         // 1011        -----1010
 
-// console.log(a <<  2);  // shifting a to left by 2 positions
-//                          // 1011         ----101100
+console.log(a <<  2);  // shifting a to left by 2 positions
+                         // 1011         ----101100
 
-// console.log(a >>    2);  //shifting a to right by 2 positions
-//                          // 1011         ---101
+console.log(a >>    2);  //shifting a to right by 2 positions
+                         // 1011         ---101
 
-// console.log(a >>>      2);  //zero filling shift to right
-//                          // 1011         --101
+console.log(a >>>      2);  //zero filling shift to right
+                         // 1011         --101
 
 
 
-//small programe
-// let num = 17;
-// console.log('num: ', num);
+small programe
+let num = 17;
+console.log('num: ', num);
 
-// console.log('Binary representation of num: ', num.toString(2));
+console.log('Binary representation of num: ', num.toString(2));
 
-// console.log("Is num an even number? ", num % 2 === 0 ? "Yes" : "No");
+console.log("Is num an even number? ", num % 2 === 0 ? "Yes" : "No");
 
-// if (num < 18) {
-//     console.log("Congratulations! You are eligible for voting.");
-// } else if (num >= 18) {
-//     console.log("Sorry, you are not eligible for voting yet.");
-// }
+if (num < 18) {
+    console.log("Congratulations! You are eligible for voting.");
+} else if (num >= 18) {
+    console.log("Sorry, you are not eligible for voting yet.");
+}
 
-/*
-Output:
-num: 17
-Binary representation of num: 11011
-Is num an even number? No
-Congratulations! You are eligible for voting.*/
+
+// Output:
+// num: 17
+// Binary representation of num: 11011
+// Is num an even number? No
+// Congratulations! You are eligible for voting.
 
 
 
@@ -207,22 +207,22 @@ Congratulations! You are eligible for voting.*/
 
 
 //4.Comparison operator     == , != , > , < , >= , <=
-// let a = 8;
-// let b = 9;
-// if (a==b){
-//     console.log("Both are equal")
-// }else if(a!=b){
-//     console.log("They are not equal");
-// }
-// if(a>b){
-//     console.log("A is greater than B")
-// }
-// if(a<b){
-//     console.log("A is lesser than B")
-// }
-// if(a<=b && a>=8){
-//     console.log("A lies between  8 and 9")
-// }
+let a = 8;
+let b = 9;
+if (a==b){
+    console.log("Both are equal")
+}else if(a!=b){
+    console.log("They are not equal");
+}
+if(a>b){
+    console.log("A is greater than B")
+}
+if(a<b){
+    console.log("A is lesser than B")
+}
+if(a<=b && a>=8){
+    console.log("A lies between  8 and 9")
+}
 
 
 
@@ -230,29 +230,29 @@ Congratulations! You are eligible for voting.*/
 
 
 
-// // 5.Logical operators      
-// // Logical NOT (!) returns true if operand is False
-// // AND(&&) returns true only if both sides are True
-// // OR(||) returns True if either side is True
-// let xx = true;
-// let y = false;
-// if(xx&&y){
-//     console.log("Both conditions are True")
-// }else{
-//     console.log("At least one condition is False")
-// }
-// if(xx||y){
-//     console.log("Atleast one of the conditions is True")
-// }
+// 5.Logical operators      
+// Logical NOT (!) returns true if operand is False
+// AND(&&) returns true only if both sides are True
+// OR(||) returns True if either side is True
+let xx = true;
+let y = false;
+if(xx&&y){
+    console.log("Both conditions are True")
+}else{
+    console.log("At least one condition is False")
+}
+if(xx||y){
+    console.log("Atleast one of the conditions is True")
+}
 
 
 
 
 
 
-// // 6.Typeof operator --> typeof
-// console.log(typeof num1);
-// console.log(typeof "Hello World");
+// 6.Typeof operator --> typeof
+console.log(typeof num1);
+console.log(typeof "Hello World");
 
 
 
@@ -260,9 +260,9 @@ Congratulations! You are eligible for voting.*/
 
 
 //7.Ternary Operator
-//condition? expr1 : expr2; -- > it will execute expr1 if condition is True, otherwise it will execute expr2
-// let x=30;
-// x>40 ? console.log("Value is greater than 40"):console.log("Value is not greater than 40");
+condition? expr1 : expr2; -- > it will execute expr1 if condition is True, otherwise it will execute expr2
+let x=30;
+x>40 ? console.log("Value is greater than 40"):console.log("Value is not greater than 40");
 
 
 
@@ -270,7 +270,7 @@ Congratulations! You are eligible for voting.*/
 
 
 
-
+ */
 
 
 
@@ -279,132 +279,132 @@ Congratulations! You are eligible for voting.*/
 // //-------------------------------------------Control and conditional statements-------------------------------------------
 
 //TYPES OF CONDITAIONAL STATEMENTS  IN JAVASCRIPT
-//1.If statement
-// let age = prompt('Enter your Age');
-// if (age >= 18) {
-//     alert('You are eligible for voting');
-// } else {
-//     alert('You are not eligible for voting');
-// }
+/* 1.If statement
+let age = prompt('Enter your Age');
+if (age >= 18) {
+    alert('You are eligible for voting');
+} else {
+    alert('You are not eligible for voting');
+}
 
 
-// // var game = "cricket"
-// // var game = "football"
+var game = "cricket"
+var game = "football"
 
-// // var ccaptain = "kohli"
-// // var fcaptain = "ronaldo"
+var ccaptain = "kohli"
+var fcaptain = "ronaldo"
 
-// // if(game == "cricket"){
-// //    document.write(ccaptain)
-// // }
-// // else if(game !== "football" ){
-// // document.write(fcaptain)
-// // }else{
-// //    document.write("No such game ")
-// // }
-
-
-//2.Switch statement
-// let month = prompt('Enter the Month in number format: ');
-// switch (month) {
-//     case 1:
-//         document.write("<h1>January</h1>");
-//         break;
-//     case 2:
-//         document.write("<h1>February</h1>");
-//         break;
-//     default:
-//         if (month > 2 && month <= 9) {
-//             document.write("<h1>Summer</h1>")
-//         } else {
-//             document.write("<h1>Winter</h1>");
-//         }
-// }
+if(game == "cricket"){
+   document.write(ccaptain)
+}
+else if(game !== "football" ){
+document.write(fcaptain)
+}else{
+   document.write("No such game ")
+}
 
 
+2.Switch statement
+let month = prompt('Enter the Month in number format: ');
+switch (month) {
+    case 1:
+        document.write("<h1>January</h1>");
+        break;
+    case 2:
+        document.write("<h1>February</h1>");
+        break;
+    default:
+        if (month > 2 && month <= 9) {
+            document.write("<h1>Summer</h1>")
+        } else {
+            document.write("<h1>Winter</h1>");
+        }
+}
+
+ */
 
 
 
 // //-------------------------------------------Terinory and conditional statements-------------------------------------------
 
-// // document.write(
-// //    2 +3 == 5 ? "Yes it is correct" : "No its wrong" // this line is terinory operator
+/* document.write(
+   2 +3 == 5 ? "Yes it is correct" : "No its wrong" // this line is terinory operator
 
-// // )
+) */
 
 
 // //-------------------------------------------Switch case statements-------------------------------------------
 
-// // switch (true) {
-// //   case 10 > 20:
-// //     myAnswer = "10 is greater than 20";
-// //     break;
-// //   case 10 == 20:
-// //     myAnswer = "10 is eqaul to 20";
-// //     break;
-// //   case 10 < 20:
-// //     myAnswer = "10 is lessthan 20";
-// //     break;
-// //   default:
-// //     myAnswer = "no of the above";
-// //     break;
-// // }
+/* switch (true) {
+  case 10 > 20:
+    myAnswer = "10 is greater than 20";
+    break;
+  case 10 == 20:
+    myAnswer = "10 is eqaul to 20";
+    break;
+  case 10 < 20:
+    myAnswer = "10 is lessthan 20";
+    break;
+  default:
+    myAnswer = "no of the above";
+    break;
+}
 
-// // document.write(myAnswer);
+document.write(myAnswer); */
 
 // //-------------------------------------------Small Program for student grades-------------------------------------------
 
-// // let name = prompt("Enter Your Name")
+/* let name = prompt("Enter Your Name")
 
-// // let marks = prompt("Enter Your Marks")
+let marks = prompt("Enter Your Marks")
 
-// // switch (true) {
+switch (true) {
 
-// //    case marks > 90 && marks <= 100:
-// //       result = "A+"
+   case marks > 90 && marks <= 100:
+      result = "A+"
 
-// //       break;
+      break;
 
-// //    case marks > 75 && marks <= 89:
-// //       result = "A"
-// //       break;
-// //    case marks < 74 && marks > 51:
-// //       result = "B"
-// //       break;
-// //    case marks < 50 && marks >= 35:
-// //       result = "C"
-// //       break;
-// //    case marks <= 34:
-// //       result = "You are fail..."
-// //       break;
-// //    default :
-// // result="Please Entere your name and marks"
-// //       break
+   case marks > 75 && marks <= 89:
+      result = "A"
+      break;
+   case marks < 74 && marks > 51:
+      result = "B"
+      break;
+   case marks < 50 && marks >= 35:
+      result = "C"
+      break;
+   case marks <= 34:
+      result = "You are fail..."
+      break;
+   default :
+result="Please Entere your name and marks"
+      break
 
-// // }
+}
 
-// // document.write("Hi " + name + " <br/>Your Grade is " + result)
+document.write("Hi " + name + " <br/>Your Grade is " + result) */
 
 
 
 
 
 // //-------------------------------------------Type Conversion-------------------------------------------
+/* 
+var a = "21" //sring
 
-// // var a = "21" //sring
+document.write(typeof a, "<br>")
 
-// // document.write(typeof a, "<br>")
+var z = parseInt(a) //coverting string to number
 
-// // var z = parseInt(a) //coverting string to number
+document.write(typeof z, "<br>")
 
-// // document.write(typeof z, "<br>")
+var b = 55 //number
 
-// // var b = 55 //number
+document.write(typeof b, "<br>")
 
-// // document.write(typeof b, "<br>")
-
-// // var y = String(b) // converting number to string
-// // document.write(typeof y, "<br>")
+var y = String(b) // converting number to string
+document.write(typeof y, "<br>") */
 
 
 
@@ -419,27 +419,27 @@ Congratulations! You are eligible for voting.*/
 
 //1.for loop -------> it will run the block of code as many times as the condition specifies
 
-// var c=0 ;
-// for (c; c<6; c++) {
-//     document.write("Hello World! <br>");
-// }
+/* var c=0 ;
+for (c; c<6; c++) {
+    document.write("Hello World! <br>");
+}
 
 
-                    // // for (var i =10; i>=1; i--) {
-                    // //   document.write(i + ")" + "my name is chandu", "<br>");
-                    // // }
+                    // for (var i =10; i>=1; i--) {
+                    //   document.write(i + ")" + "my name is chandu", "<br>");
+                    // }
 
 
-
+ */
 
 //2.while loop ------> It will run the block of code until the condition becomes false
 
-// var d=0;
-// while (d<7){
-//     document.write("I love Coding! <br> ");
-//     d++;
-// }
-
+/* var d=0;
+while (d<7){
+    document.write("I love Coding! <br> ");
+    d++;
+}
+ */
 
 
 
@@ -448,12 +448,12 @@ Congratulations! You are eligible for voting.*/
 // do while loop ----> It will first execute the block of code and then check the condition
 //                    If the condition is true ,it will again execute the block of code
 
-// e=8
-// do{
-//     document.write("Welcome to Programming! <br> ")
-//     e--;
-// }while(e>0);
-
+/* e=8
+do{
+    document.write("Welcome to Programming! <br> ")
+    e--;
+}while(e>0);
+ */
 
 
 
@@ -462,14 +462,14 @@ Congratulations! You are eligible for voting.*/
 
 // break statement --> used to stop the execution of a loop if some specific condition met
 
-// var f=1;
-// for (f; f<=5; f++){
-//     if (f==3)
-//         break;
-//     else
-//         document.write("The number is : "+f+"<br>")
-// }
-
+/* var f=1;
+for (f; f<=5; f++){
+    if (f==3)
+        break;
+    else
+        document.write("The number is : "+f+"<br>")
+}
+ */
 
 
 
@@ -480,82 +480,79 @@ Congratulations! You are eligible for voting.*/
 // continue statement --> Used to skip the current iteration of a loop and move directly to the next iteration
 // continue statement --> used to skip the current iteration of a loop and move on to the next one
 
-// var g = 1;
-// for (g; g <= 5; g++) {
-    //     if (g == 2)
-    //         continue;
-    //     else
-    //         document.write("The number is: " + g + "<br>");
-// }
+/* var g = 1;
+for (g; g <= 5; g++) {
+        if (g == 2)
+            continue;
+        else
+            document.write("The number is: " + g + "<br>");
+} */
 
 
 
 
 //for of loop  --> it can be used with arrays or array-like objects, such as arguments object, strings etc. It gives us an easy way to iterate over each
                       //idhi only values ni mathrame isthundhi
-// const marks = [25,30,40,48]
+/* const marks = [25,30,40,48]
 
-                  //this is for each loop idhi kakunda manam for of loop vaadochu 
-//  marks.forEach(function(q){
-//  document.write(q*2,"<br>")
-// })
+                 //  this is for each loop idhi kakunda manam for of loop vaadochu 
+ marks.forEach(function(q){
+ document.write(q*2,"<br>")
+})
 
- // for of loop
-//  for(const q of marks){
-//     document.write(q*2,"<br>") 
-// }
-
-
-
-
+ for of loop
+ for(const q of marks){
+    document.write(q*2,"<br>") 
+}
+ */
 
 
 //for in loop  --> it loops through all enumerable properties of an object, it gives index value
                        //idhi values tho paatu index kuda isthundhi
-//  const capitals = {
-//        India: "New Delhi",
-//        USA: "Washington D.C.",
-//        France: "Paris",
-//        Germany: "Berlin",
-//       Canada: "Ottawa"
-//     };
+/*  const capitals = {
+       India: "New Delhi",
+       USA: "Washington D.C.",
+       France: "Paris",
+       Germany: "Berlin",
+      Canada: "Ottawa"
+    };
 
-//      for(const c in capitals){
+     for(const c in capitals){
 
-//        document.write(c," : ",capitals[c],"<hr>")
+       document.write(c," : ",capitals[c],"<hr>")
 
-//      }
+     }
+ */
 
 
 
+/* var chandu = ["chandu","vani","laddu","sai"]
 
-// var chandu = ["chandu","vani","laddu","sai"]
+// chandu.forEach(function(c){
+//     document.write(c,"</br>")
+// })
 
-// // chandu.forEach(function(c){
-// //     document.write(c,"</br>")
-// // })
-
-// for(c in chandu){
-//     document.write(c,":",chandu[c],"</br>")
-// }
+for(c in chandu){
+    document.write(c,":",chandu[c],"</br>")
+} */
 
 
 
 
 // small programe
 
-// var amount = 100
-//  var days = 30
-//  var intrest = 2
+/* var amount = 100
+ var days = 30
+ var intrest = 2
 
-//  for(var i=1; i<days; i++){
-//    if(i%4 ===0){
-//     amount += intrest
-//   }
-//   document.write("your amount for "+ i+ "th day"+ amount,"<br>")
+ for(var i=1; i<days; i++){
+   if(i%4 ===0){
+    amount += intrest
+  }
+  document.write("your amount for "+ i+ "th day"+ amount,"<br>")
 
 
-// // }
+// } */
 
 
 
@@ -563,28 +560,28 @@ Congratulations! You are eligible for voting.*/
 
 // //-------------------------------------------template string/literals-------------------------------------------
 
-//using back-tick
-// var c = 'chandu'
-// document.write(`hello ${c} namasthe`)
+/* using back-tick
+var c = 'chandu'
+document.write(`hello ${c} namasthe`)
 
 
-//instead if using \n this 
-// console.log(`chandu
-// raparthi`);
+instead if using \n this 
+console.log(`chandu
+raparthi`); */
 
 
 
   
 //-------------------------------------------Arrays-------------------------------------------------
 
-    // var names = ['chandu','sai','apparao']
-    // document.write(names,"</br>")
-//accessing the array elements
-    // document.write(names[0])
+   /*  var names = ['chandu','sai','apparao']
+    document.write(names,"</br>")
+accessing the array elements
+    document.write(names[0]) */
 
 //2nd way
-// var names = new Array('chandu','sai','apparao');
-// document.write(names)
+/* var names = new Array('chandu','sai','apparao');
+document.write(names) */
 
 
                                            //Array methods 
@@ -1091,6 +1088,89 @@ Congratulations! You are eligible for voting.*/
 
 
 
+
+
+
+
+
+//---------------------------------------------------------Console methods---------------------------------------------------------
+
+/* let s = 'namathe'
+
+//console lo msg chupuisthundhi(idhi manam development lo use chestham)
+console.log('Chandu', s) 
+
+//same log laane (idhi manam user ki em aina console lo chupinchali ante use chestham...)
+console.info('namasthe' ,s)
+
+
+//warnings kosam
+console.warn('wrong step')
+
+//error ni diplay cheyyadaniki
+console.error('did a mistake')
+
+//dhinilo manam objects or arrays ni input ga isthe adhi tabular form lo chupisthadhi
+console.table(capitals = {
+       India: "New Delhi",
+       USA: "Washington D.C.",
+       France: "Paris",
+       Germany: "Berlin",
+       Canada: "Ottawa"
+     })
+
+
+
+  //clear anedhi use chesthe ippati varaku console unna data antha clear avuthundhi
+ console.clear()
+
+
+ //condition flase aithe user ki manam output chupistham
+ console.assert(10>5,"condition false")
+
+//manam ee function ni enni saarlu call aindhi anedhi chupisthadhi..
+ console.count() */
+
+          /*   let x = +prompt("enter a number")
+            while(x!=10){
+                console.log(x)
+                x = +prompt('enter number')
+                console.count('called')
+            } */
+
+
+
+
+
+// //---------------------------------------------------------DOM(Document Object Model)---------------------------------------------------------
+
+//1.DOM : By using HTML DOM js can access, change or remove any element of html document and also can create new element at any position..
+//2.When a webPage loaded, nrowser create dom of webpage
+
+//Document Methods
+
+/* document.getElementById()
+document.getElementsByClassName()
+document.getElementsByTagName()
+
+//idhi use cheyyali ante css lo ela define chesthamo(.class, #id, tagName) ala ivvali
+document.querySelector()
+document.querySelectorAll() //returns array of elements
+//paina 5 ni use chesukuni manam html elements ni access chesthamu...
+
+
+
+document.createElement()
+document.createTextNode()
+document.appendChild()
+document.removeChild()
+document.replaceChild()
+document.write()
+document.writeInnnerHTML()
+document.writeOuterHTML()
+document.hasChildNodes()
+document.createTextNode()
+ */
 
 // // const a = document.getElementsByClassName("navbar-brand")[0]
 

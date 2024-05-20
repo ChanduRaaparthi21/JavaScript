@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add styles and addORchange attributes</title>
+
+    <style>
+
+
+.special{
+    color: red;
+}
+
+.one{
+    background-color: rgb(174, 230, 174);
+
+}
+.two{
+    color: rgb(59, 0, 235);
+}
+.three{
+    border: yellow 5px solid;
+}
+
+    </style>
+
+</head>
+<body>
+
+<!-- 1.How to change style of a element
+     2. How to get attribute value of an element
+     3. How to set/change attribute value of an element
+-->
+
+<div class="special">
+    Hello namsthe
+</div>
+
+
+<!-- How to add attributes and unna attribute ni thiyyakunda kotthadhi add cheyyadaniki -->
+<div id="spl" class="one">
+    Hello namsthe
+</div>
+
+
+
+<img id="im" src="img1.jpg" alt="legs">
+
+Name : <input type="text" id="form">
+
+<script>
+
+     // 1.How to change style of a element
+
+   /*  var ele=document.querySelector('.special')
+    ele.style.color="blue"
+    ele.style.border= "black 3px solid"
+    // ele.style.backgroundColor="pink" */
+    
+
+
+
+    //2. How to get attribute value of an element
+
+    /* var ele=document.querySelector('.special')
+    console.log(ele.getAttribute('class')) //special */
+
+
+
+   // 3. How to set/change attribute value of an element
+
+  /*  var ele = document.querySelector('.special')
+   ele.setAttribute('id','one') */
+
+
+
+//image styles
+
+/*  var image = document.querySelector('#im')
+ image.style.width="100px"
+ image.style.height="100px"
+
+ console.log(image.getAttribute('src'));
+ image.setAttribute('src', 'img2.jpg') //change the image using js */
+
+
+
+ //for form
+
+/*  var form= document.querySelector('#form')
+
+ console.log(form.getAttribute('value'));
+ form.setAttribute('value', "Chandu")
+ console.log(form.getAttribute('value')); */
+
+    
+
+
+
+ //How to add attributes and unna attribute ni thiyyakunda kotthadhi add cheyyadaniki
+ 
+/*  var chandu = document.querySelector('#spl')
+//  chandu.setAttribute('id', 'two')
+ chandu.classList.add('two')
+ console.log(chandu.classList);
+ chandu.classList.add('three') //js nunchi attributes add cheyydaniki idhi use chesthamu idhi already unna class latho add avuthundhi kaani vaatini disturb cheyyadhu
+ */
+
+</script>
+    
+</body>
+</html>

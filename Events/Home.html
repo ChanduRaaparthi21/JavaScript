@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       .buttons{
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            border: white 2px solid;
+        }
+
+        .Red:hover {
+            background-color: Red;
+            color: white;
+            border: white 3px soli;
+        }
+        
+       .Green:hover {
+            background-color: green;
+            color: white;
+
+        }
+        
+       .Blue:hover {
+            background-color: Blue;
+            color: white;
+
+        }
+        .Yellow:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="buttons">
+        <button class="Red" onclick="red()">Red</button>
+        <button class="Green" onclick="Green()">Green</button>
+        <button class="Blue" onclick="Blue()">Blue</button>
+        <button class="Yellow" onclick="Yellow()">Yellow</button>
+
+    </div>
+
+    <script>
+        var red = document.querySelector(".Red");
+        var Green = document.querySelector(".Green");
+        var Blue = document.querySelector(".Blue");
+        var Yellow = document.querySelector(".Yellow");
+
+        var changeToRed = () =>  document.body.style.backgroundColor = "Red";
+        var changeToGreen = () =>  document.body.style.backgroundColor = "green";
+        var changeToBlue = () =>  document.body.style.backgroundColor = "Blue";
+        var changeToYellow = () =>  document.body.style.backgroundColor = "Yellow";
+
+        red.addEventListener("click", changeToRed);
+        Green.addEventListener("click", changeToGreen);
+        Blue.addEventListener("click", changeToBlue);
+        Yellow.addEventListener("click", changeToYellow);
+
+    
+    </script>
+</body>
+</html>

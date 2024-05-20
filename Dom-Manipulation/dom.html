@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-manipulation</title>
+    <!-- <script src="dom.js"></script> -->
+</head>
+<body>
+    
+    <div class="first">
+        <p>
+            this is first paragraph on div1
+        </p>
+        <p>
+            this is second paragraph on div1
+        </p>
+    </div>
+
+    <div class="second">
+        <p>
+            this is first paragraph on div2
+        </p>
+        <p class="last">
+            this is second paragraph on div2
+        </p>
+        
+    </div>
+
+
+
+    <script>
+
+//Create Element, set Content, append
+
+/* let s=document.createElement("p")                              //we create the element
+s.innerText="This is third paragraph in div2"                    // create chesina element ki text add chesamu...
+console.log(s);
+var div2=document.querySelector('.second').appendChild(s)        //appendChild ante manam theesukunna parent element ki last lo add chesthundhi
+
+
+ 
+let ss = document.createElement('p')
+ss.innerText="<p> This is third paragraph in div1 <p>"         //innerText aithe as it is ga em tags aithe rasthamo adhe output isthundhi
+ss.innerHTML="<p> This is third paragraph in div1 <p>"          //innerHTML aithe tags ni ardham chesukuni exact ga output isthundhi
+console.log(ss);
+var div1= document.querySelector('.first').appendChild(ss) */
+
+
+
+
+
+//How to insert an element before another element
+
+/* 
+var n = document.createElement('p')
+n.innerText="this is special text div2 "
+
+var parent = document.querySelector('.second')
+var last = document.querySelector('.last')
+parent.insertBefore(n,last) //last element before lo insert chesukundhi
+ */
+
+
+
+
+
+//How to remove element
+
+/* var last = document.querySelector('.last')
+last.remove()                                //last element remove chesukundhi
+ */
+
+
+
+
+
+
+//How to remove child element
+
+/* var parent = document.querySelector('.second') //idhi main div dhanilo oka child ni kuda theesukini remove cheyyali
+var child = document.querySelector('.last')
+parent.removeChild(child) */
+
+
+
+
+//How to replace element
+
+/* var n = document.createElement('h1')
+n.innerText="this is Heading div2 "
+
+var last = document.querySelector('.last')
+last.replaceChildren(n) */
+
+
+    </script>
+
+
+</body>
+</html>

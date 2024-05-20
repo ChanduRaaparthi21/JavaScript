@@ -1142,7 +1142,7 @@ console.table(capitals = {
 
 
 
-// //---------------------------------------------------------DOM(Document Object Model)---------------------------------------------------------
+//-----------------------------------DOM(Document Object Model)---------------------------------------------------------
 
 //1.DOM : By using HTML DOM js can access, change or remove any element of html document and also can create new element at any position..
 //2.When a webPage loaded, nrowser create dom of webpage
@@ -1171,6 +1171,54 @@ document.writeOuterHTML()
 document.hasChildNodes()
 document.createTextNode()
  */
+
+
+
+
+
+
+
+
+
+//-----------------------------------DOM Manipulation---------------------------------------------------------
+
+//How to create Html element
+//1.Using createElement() method
+//2.Using innerHTML property
+//3.Using template literals
+//4.Using innerText property
+//5.Using textContent property
+//6.Using insertAdjacentHTML() method
+//7.Using insertAdjacentText() method
+//8.Using insertAdjacentElement() method
+//9.Using cloneNode() method
+//10.Using appendChild() method
+//11.Using insertBefore() method
+//12.Using replaceChild() method
+//13.Using removeChild() method
+//14.Using remove() method
+//15.Using insertAdjacentElement() method
+//16.Using insertAdjacentText() method
+//17.Using insertAdjacentHTML() method
+//18.Using insertAdjacentElement() method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // // const a = document.getElementsByClassName("navbar-brand")[0]
 
@@ -1594,20 +1642,20 @@ document.createTextNode()
 
 // //-------------------------------------------Closure-------------------------------------------
 
+/* 
+            let count = 0
 
-//             // let count = 0
+            function updateCount(){
 
-//             // function updateCount(){
+               count = count+1
 
-//             //    count = count+1
+               let p = document.getElementById('count')
 
-//             //    let p = document.getElementById('count')
-
-//             //    p.innerText = `Clocked :  ${count}`;
+               p.innerText = `Clocked :  ${count}`;
 
 
 
-//             // }
+            } */
 
 
 

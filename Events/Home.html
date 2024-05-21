@@ -10,28 +10,33 @@
             position: absolute;
             top: 50%;
             left: 40%;
-            border: white 2px solid;
         }
 
         .Red:hover {
             background-color: Red;
             color: white;
-            border: white 3px soli;
+            border: white 2px solid;
         }
         
        .Green:hover {
             background-color: green;
             color: white;
+            border: white 2px solid;
+
 
         }
         
        .Blue:hover {
             background-color: Blue;
             color: white;
+            border: white 2px solid;
+
 
         }
         .Yellow:hover {
             background-color: yellow;
+            border: white 2px solid;
+
         }
     </style>
 </head>
@@ -43,7 +48,12 @@
         <button class="Blue" onclick="Blue()">Blue</button>
         <button class="Yellow" onclick="Yellow()">Yellow</button>
 
+
+
+        <input type="text" class="input">
+
     </div>
+
 
     <script>
         var red = document.querySelector(".Red");
@@ -51,17 +61,47 @@
         var Blue = document.querySelector(".Blue");
         var Yellow = document.querySelector(".Yellow");
 
+      //Using addEventListener method
         var changeToRed = () =>  document.body.style.backgroundColor = "Red";
         var changeToGreen = () =>  document.body.style.backgroundColor = "green";
         var changeToBlue = () =>  document.body.style.backgroundColor = "Blue";
         var changeToYellow = () =>  document.body.style.backgroundColor = "Yellow";
 
+        
         red.addEventListener("click", changeToRed);
         Green.addEventListener("click", changeToGreen);
         Blue.addEventListener("click", changeToBlue);
         Yellow.addEventListener("click", changeToYellow);
 
+
+
+        //----------------------OR------------------------
+
+
+        /* red.click= ()=> document.body.style.backgroundColor='red'
+        Green.click= ()=> document.body.style.backgroundColor='green'
+        Blue.click= ()=> document.body.style.backgroundColor='blue'
+        Yellow.click= ()=> document.body.style.backgroundColor='yellow' */
+        
+
+
+        //for input 
+        var input = document.querySelector(".input");
+        input.addEventListener('keyup', change)
+        function change() {
+        if(event.key=='@'){
+            alert("Special charecters not allowed")
+        }
+        }
+      
+        
+
+
+       /* //for otp
+        const otp = Math.floor(100000 + Math.random()* 900000)
+console.log(otp); */
     
+
     </script>
 </body>
 </html>

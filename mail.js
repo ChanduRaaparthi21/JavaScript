@@ -1657,5 +1657,32 @@ document.createTextNode()
 
             } */
 
+            
+/* import{randomInt} from "crypto";
+
+const otp = randomInt(100000, 1000000)
+
+console.log(otp); 
 
 
+----------
+
+ const otp = Math.floor(100000 + Math.random()* 900000)
+console.log(otp); */
+
+
+
+
+
+
+      //find method
+/* 
+      var places = ['vij','hyd','nzd','vizag']
+
+      var place = places.find((ele)=>{
+        return  ele.startsWith("v")
+      })
+      console.log(place); */
+
+
+    

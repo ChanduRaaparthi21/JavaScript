@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <button id="count" >Click me</button> -->
+    <input type="button" value="Click" onclick="counting()">
+    <p id="p">0 Times Clicked</p>
+
+
+    <script>
+
+/* let count=0
+function counting(){
+     count = count+1
+    let p = document.getElementById("p")
+    p.innerText=`${count} Times Clicked`
+} */
+
+
+//Using Closure....
+
+function outer(){
+
+    count = 0
+
+    function inner(){
+
+        count = count+1
+        let p = document.getElementById('p')
+        p.innerText=`${count} Times Clicked`
+    }
+    return inner
+}
+
+let counting =outer()
+counting()
+
+
+        
+    </script>
+
+</body>
+</html>

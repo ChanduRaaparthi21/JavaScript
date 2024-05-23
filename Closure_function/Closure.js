@@ -14,29 +14,17 @@ var closureFunction = outerFunction()
 
 closureFunction() */
 
-
-
-
-
-
-
-
-
-
 ////////////////////////////////////////////////////Weekend coding in telugu////////////////////////////
 
+function outer() {
+  const value = "Hello";
+  console.log("im outer function");
 
-function outer(){
-
-    const value = "Hello"
-    console.log('im outer function');
-
-    function inner(){
-
-        console.log('im inner function');
-        console.log(value);
-    }
-    return inner
+  function inner() {
+    console.log("im inner function");
+    console.log(value);
+  }
+  return inner;
 }
-let cFunc = outer()
-cFunc()
+let cFunc = outer();
+cFunc();

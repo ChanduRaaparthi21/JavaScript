@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cll & apply & bibd</title>
+</head>
+<body>
+    
+
+<script>
+
+//theese methods are used for manipulate the this. keyword
+//call & apply & bind 
+//call & apply are used for call the function with the this keyword
+//bind is used for bind the this keyword to the function
+
+
+//--> this keyword oka object ni represent chesthundhi kadhaa, aa object ni kakunda vere object ni represent cheyyadaniki aaa three methods ni use chesthamu...
+
+
+/* idhi oka way window Object kaabatti direct ga raasesam..*/
+
+/* 
+salary = 30000;
+
+function mySalary(q,b){
+    console.log(this.salary);
+    console.log(q,b);
+
+}
+    
+// mySalary()
+
+
+employee1={
+    salary:40000
+}
+mySalary.call(employee1,55,45)  //call
+
+employee2={
+    salary:50000
+}
+mySalary.apply(employee2,[68,565]) //apply
+
+employee3={
+    salary:60000
+}
+var s1 = mySalary.bind(employee3,564,4543) //bind
+s1() //bind */
+
+
+//Second way enti ante oka user defined object lo unnappdu ela use cheyyali ante
+
+
+mySalaryObject ={
+
+    salary : 50000,
+    mySalary : function(q,b){
+        console.log(this.salary);
+        console.log(q,b);
+    }
+}
+
+mySalaryObject.mySalary(777,555);
+
+
+employee1 = {
+    salary:60000,
+}
+mySalaryObject.mySalary.call(employee1,57,343) //call
+
+employee2={
+    salary:70000,
+}
+mySalaryObject.mySalary.apply(employee2,[67,343]) //apply
+
+employee3 ={
+    salary:80000,
+}
+var s1 = mySalaryObject.mySalary.bind(employee3,567,343) //bind
+s1()
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

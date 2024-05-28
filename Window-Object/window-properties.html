@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<button type="button" onclick="openWindow()" id="window">open window</button>
+<button type="button" onclick="closeWindow()" id="window">close window</button>
+<button type="button" onclick="moveWindow()" id="window">move window</button>
+
+
+    <script>
+
+/* 1.documet
+2.innerWidth
+3.innerHeight
+4.outerWidth
+5.outerHeight
+6.location
+7.closed
+8.name
+9.navigator */
+
+var ref;
+
+function openWindow(){
+    ref = window.open("https://www.google.com","_blank","width=500,height=500");
+}
+
+function closeWindow(){
+    ref.close();
+}
+
+function resizeWindow(){
+    ref.resizeTo(500,500);
+}
+
+function moveWindow(){
+    ref.moveTo(800,100);
+}
+
+
+
+
+    </script>
+
+</body>
+</html>
